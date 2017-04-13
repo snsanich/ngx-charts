@@ -225,6 +225,26 @@ const chartGroups = [
         options: ['colorScheme', 'value', 'previousValue', 'min', 'max', 'units']
       }
     ]
+  },
+  {
+    name: 'Demos',
+    charts: [
+      {
+        name: 'Heat Map - Calendar',
+        selector: 'calendar',
+        inputFormat: 'calendarData',
+        options: [
+          'colorScheme', 'showXAxis', 'showYAxis', 'gradient', 'showLegend',
+          'innerPadding', 'tooltipDisabled'
+        ]
+      },
+      {
+        name: 'Number Cards - Status',
+        selector: 'status-demo',
+        inputFormat: 'statusData',
+        options: ['colorScheme']
+      }
+    ]
   }
 ];
 
