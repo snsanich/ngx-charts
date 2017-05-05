@@ -12,6 +12,7 @@ var NumberCardComponent = (function (_super) {
     __extends(NumberCardComponent, _super);
     function NumberCardComponent() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.emptyColor = 'rgba(0, 0, 0, 0)';
         _this.innerPadding = 15;
         _this.margin = [10, 10, 10, 10];
         return _this;

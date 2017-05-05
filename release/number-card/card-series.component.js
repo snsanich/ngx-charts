@@ -51,7 +51,7 @@ var CardSeriesComponent = (function () {
             d.data.name = label;
             var value = d.data.value;
             var valueColor = label ? _this.colors.getColor(label) : _this.emptyColor;
-            var color = _this.cardColor || valueColor;
+            var color = _this.cardColor || valueColor || '#000';
             return {
                 x: d.x,
                 y: d.y,
